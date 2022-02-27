@@ -1,0 +1,9 @@
+To be made:
+
+0 modifying modules.sh such that all the modules used
+  are written in requirements.txt with version
+1 Letting users choose their custom emoji
+2 Letting users choose their custom sounds
+3 Giving them freedom to store sounds anywhere
+4 making a fully fledged gui
+5 writing the proper requirements.txt file
