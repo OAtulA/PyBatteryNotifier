@@ -7,4 +7,4 @@ pip3 install psutil==5.5.1
 pip3 install playsound==1.3.0
 
 mkdir ~/sounds
-mv sounds/* ~/sounds
+cp sounds/*.wav ~/sounds
