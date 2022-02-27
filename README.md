@@ -34,5 +34,7 @@ chmod +x install.sh
 
 Add notifier to startup apps.
 
+But in command type ```python3 <full path to notifier.py>```
+
 To add to startup apps here is a [turorial](https://www.simplified.guide/gnome/automatically-run-program-on-startup)
 
