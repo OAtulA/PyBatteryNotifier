@@ -18,20 +18,20 @@ def percent_check():
         if charging:
             os.system("notify-send '" +' ' + '\U0001F979' + 'percent%' + "' '" + percent + "'")
             playsound('sounds/mixkit-melodical-flute-music-notification-2310.wav')
-            time.sleep(120)
+            time.sleep(120)        
         else:
             percent = str(percent)
             percent= percent[:2]
             os.system("notify-send '" +' ' + '\U0001F97A' + 'percent%' + "' '" + percent + "'")
             playsound('sounds/mixkit-wrong-answer-fail-notification-946.wav')
             time.sleep(180)        
-    elif percent == 30:
+    elif percent >= 30 and percent <= 33:
         percent = str(percent)
         percent= percent[:2]
         os.system("notify-send '" + ' '+ '\U0001F645' + 'percent%' + "' '" + percent + "'")
         playsound('sounds/mixkit-bell-notification-933.wav')
         time.sleep(300)
-    elif percent == 40 :
+    elif percent >= 40 and percent <= 43:
         percent = str(percent)
         percent= percent[:2]
         os.system("notify-send '" + ' '+ '\U0001F481' + 'percent%' + "' '" + percent + "'")
@@ -43,7 +43,7 @@ def percent_check():
         os.system("notify-send '"+ ' '+ '\U0001F525' + 'percent%' + "' '" + percent + "'")
         playsound('sounds/mixkit-bell-notification-933.wav')
         playsound('sounds/mixkit-happy-bells-notification-937.wav')
-        time.sleep(120)
+        time.sleep(75)
     else:
         time.sleep(120)
     
