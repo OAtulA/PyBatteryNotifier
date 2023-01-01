@@ -7,3 +7,5 @@ To be made:
 3 Giving them freedom to store sounds anywhere
 4 making a fully fledged gui
 5 writing the proper requirements.txt file
+6 Check if the earphones or headphones are plugged in.
+  if so then reduce the loudness of notification.
