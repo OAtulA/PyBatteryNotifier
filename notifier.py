@@ -25,7 +25,7 @@ def percent_check():
             os.system("notify-send '" +' ' + '\U0001F97A' + 'percent%' + "' '" + percent + "'")
             playsound('Music/BatteryNotifySound/mixkit-wrong-answer-fail-notification-946.wav')
             time.sleep(180)        
-    elif percent >= 30 and percent <= 33 and not charging:
+    elif percent >= 32 and percent <= 35 and not charging:
         percent = str(percent)
         percent= percent[:2]
         os.system("notify-send '" + ' '+ '\U0001F645' + 'percent%' + "' '" + percent + "'")

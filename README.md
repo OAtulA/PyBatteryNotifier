@@ -3,7 +3,7 @@
 ## Usage
 
 This will give the battery notification when battery is less than 20
-and at 30, 40,  or more than 85 and charging.
+and at 30 and more than 85 and charging.
 This will notify you with sounds.
 
 As the battery levels should be maintained in this range of 20 to 80% for healthy battery.
