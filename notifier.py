@@ -11,7 +11,7 @@ def percent_check():
     charging= battery.power_plugged
 
     # Checking percent
-    if percent <= 20:
+    if percent <= 30:
 
         percent = str(percent)
         percent= percent[:2]
@@ -32,7 +32,7 @@ def percent_check():
         playsound('Music/BatteryNotifySound/mixkit-bell-notification-933.wav')
         time.sleep(300)
     # I think reminding when its around 30% once is enough.   
-    elif percent >=93 and charging:
+    elif percent >=86 and charging:
         percent = str(percent)
         percent= percent[:2]
         os.system("notify-send '"+ ' '+ '\U0001F525' + 'percent%' + "' '" + percent + "'")
