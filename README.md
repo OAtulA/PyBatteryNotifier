@@ -1,16 +1,16 @@
-# PyBatteryNotifier
+# PyBatteryNotifier 🔋
 
 ## Usage
 
 This will give the battery notification when battery is less than 20
 and at 30, 40,  or more than 95 and charging.
-This will notify you with sounds.
+This will notify you with sounds. 🔊
 
 ## Installation
 
 ### Step 0
 
-Make sure python and pip are [installed](https://www.tutorialsteacher.com/python/install-python)
+Make sure python  and pip are [installed](https://www.tutorialsteacher.com/python/install-python)
 
 ### step 1
 
